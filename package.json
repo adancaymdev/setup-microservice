@@ -1,0 +1,19 @@
+{
+  "name": "setup-microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "setup-microservice": "dist/setup-microservice.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "degit": "^2.8.4"
+  },
+  "devDependencies": {
+    "@types/degit": "^2.8.6",
+    "@types/node": "^22.15.2",
+    "typescript": "^5.8.3"
+  }
+}
