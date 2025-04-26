@@ -4,11 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "setup-microservice": "dist/setup-microservice.js"
+    "setup-microservice": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
   },
   "dependencies": {
+    "chalk": "^5.4.1",
     "commander": "^13.1.0",
-    "degit": "^2.8.4"
+    "degit": "^2.8.4",
+    "inquirer": "^12.6.0"
   },
   "devDependencies": {
     "@types/degit": "^2.8.6",

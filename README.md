@@ -9,4 +9,4 @@ CLI para generar microservicios NestJS automáticamente desde una plantilla priv
 Puedes correr directamente desde GitHub usando `npx`:
 
 ```bash
-npx github:adancaymdev/setup-microservice --name=<nombre> --port=<puerto> --token=<GITHUB_TOKEN>
+npx github:adancaymdev/setup-microservice#v1.0.0 --name=products --port=3002 --token=XXXXX
